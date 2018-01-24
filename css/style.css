@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+}
+button {
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#get-joke:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+#get-joke {
+    transform: translate(160px,0);
+}
+p {
+    text-align: center;
+}
