@@ -19,19 +19,3 @@ function getJoke() {
 window.onload = function() {
   getJoke();
 };
-
-/* 
-
-new XMLHttpRequest(); --> nowa instancja obiektu XHR
-xhr.open('GET', url);    --> otwórz zapytanie za pomocą metody GET
-xhr.addEventListener('load', function()  --> nasłuchuj odpowiedzi z serwera
-i przechowaj odpowiedź w formacie JSON
-
-paragraph.innerHTML = responce.value.joke; --> do paragrafu dodaj odpowiedź serwera - czyli dowcip.
-
-xhr.send();  --> wyślij zapytanie do serwera (wyślij obiekt XHR który zapyta za pomocą HTTP)   
-JSON.stringify(object) --> przechowuje obiekt do wysłania / uploadu na serwer
-JSON.parse(string) --> zmiana formatu JSON na obiekt JS do późniejszej manipulacji
-JSON.parse(xhr.response) --> wartością string jest dowcip jako odpowiedź z serwera
-
-*/
