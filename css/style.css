@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu:400,700');
 body {
     background-color: beige;
+    padding-top: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 28px;
+    background: url('https://image.ibb.co/cwHfwn/blue_minimalistic_gradient_1920x1080_50466.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    color: #fff;
 }
 .container {
     width: 500px;
@@ -8,7 +18,7 @@ body {
 }
 button {
     padding: 15px;
-    background-color: cornflowerblue;
+    background-color: rgba(0,0,255,0.1);
     color: #fff;
     border: 1px solid #000;
     border-radius: 10px;
