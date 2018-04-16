@@ -7,9 +7,10 @@
     <link rel=stylesheet href="css/style.css" type="text/css">
 </head>
 <body>
-   <div class="container">
-    <button id="get-joke">Random Joke</button>
-    <p id="joke"></p>
+    <p class="portfolio">A non-commercial portfolio project of Konrad Jakubowski</p>
+    <div class="container">
+        <button id="get-joke">Random Joke</button>
+        <p id="joke"></p>
     </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
